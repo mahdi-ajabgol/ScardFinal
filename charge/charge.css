@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.mojodi-live{
+    display: flex;
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 0px auto 10px auto;
+    text-align: center;
+}
+
+.mojodi-live:focus{
+    border: none;
+    outline: none;
+}
+
+.plus-container{
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+}
+
+.mojodi-minus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    aspect-ratio: 1/1;
+    margin-right: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    color: white;
+    border: 5px solid white;
+    transition: 300ms;
+}
+
+.mojodi-plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    border-radius: 50%;
+    color: white;
+    border: 5px solid white;
+    transition: 300ms;
+}
+
+.mojodi-minus:active{
+    transform: scale(0.8);
+}
+
+.mojodi-plus:active{
+    transform: scale(0.8);
+}
+
+.submit-btn{
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    left: 50%;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+}
+
+.submit-btn:active{
+
+}

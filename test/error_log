@@ -1,0 +1,12 @@
+[21-Nov-2023 04:10:18 Asia/Tehran] PHP Notice:  Undefined variable: _SESSION in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3
+[21-Nov-2023 04:10:18 Asia/Tehran] PHP Notice:  Trying to access array offset on value of type null in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3
+[21-Nov-2023 04:10:36 Asia/Tehran] PHP Notice:  Undefined variable: _SESSION in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3
+[21-Nov-2023 04:10:36 Asia/Tehran] PHP Notice:  Trying to access array offset on value of type null in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3
+[21-Nov-2023 04:30:58 Asia/Tehran] PHP Notice:  Undefined index: username in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3
+[21-Nov-2023 04:31:17 Asia/Tehran] PHP Notice:  Undefined index: username in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3
+[21-Nov-2023 04:31:19 Asia/Tehran] PHP Notice:  Undefined index: username in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3
+[21-Nov-2023 05:16:02 Asia/Tehran] PHP Notice:  Undefined index: username in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3
+[21-Nov-2023 05:36:11 Asia/Tehran] PHP Notice:  Undefined index: username in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3
+[21-Nov-2023 07:19:44 Asia/Tehran] PHP Notice:  Undefined index: username in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3
+[21-Nov-2023 07:19:55 Asia/Tehran] PHP Notice:  Undefined index: username in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3
+[21-Nov-2023 07:20:23 Asia/Tehran] PHP Notice:  Undefined index: username in /home/technonu/public_html/mani-mahdi-1386-1385-technonull-poyandegan-poyandegan-ma-qw-pa-aj/test/index.php on line 3

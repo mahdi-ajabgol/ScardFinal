@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.search-container{
+    position: relative;
+}
+
+.search{
+    width: 300px;
+    height: 30px;
+    padding: 10px 10px 10px 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 50px;
+    /* background-color: rgb(58, 55, 55); */
+    background: rgb(135,135,135);
+background: linear-gradient(310deg, rgba(135,135,135,1) 14%, rgba(68,68,68,1) 95%);
+    border: none;
+    transition: 500ms;
+}
+
+#icon{
+    position: absolute;
+    left: 10px;
+    top: 55px;
+    color: white;
+}
+
+.bt{
+    background-color: rgb(125, 125, 227);
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search:focus{
+    background: rgb(135,135,135);
+background: linear-gradient(130deg, rgba(135,135,135,1) 14%, rgba(68,68,68,1) 95%);
+height: 60px;
+}
+
+
+.menu{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 65px;
+    justify-content: space-around;
+    border-top: 1px solid #272727;
+    background-color: black;
+    /* border-radius: 0px 0px 15px 0px; */
+    opacity: 1;
+    margin-top: auto;
+    transition: 300ms;
+    z-index: 10;
+}
+
+.menu div{
+    display: flex;
+    width: 50px;
+    height: 100%;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu #icon{
+    margin: auto;
+    font-size: 25px;
+}
+
+.al-container{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;   
+    width: 80%;
+    padding: 20px;
+    opacity: 0;
+    border-radius: 5px;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+}
+
+.al-container p{
+    font-size: 17px;
+    margin-bottom: 100px;
+}
+
+.al-container button{
+    width: 140px;
+    height: 50px;
+    border-radius: 9px;
+    background-color: green;
+    border: none;
+}

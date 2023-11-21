@@ -1,0 +1,16 @@
+<?php
+header("Location: ./main/index.php");
+?>
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en" dir="ltr">-->
+<!--<head>-->
+<!--<meta charset="utf-8">-->
+<!--<title>PWA</title>-->
+<!--<link rel="manifest" href="manifest.json">-->
+<!--</head>-->
+<!--<body>-->
+<!--<h1>Hi, Welcome..!</h1>-->
+<!--<script src="index.js"></script>-->
+<!--</body>-->
+<!--</html>-->

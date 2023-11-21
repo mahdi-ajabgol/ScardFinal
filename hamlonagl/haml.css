@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+}
+
+.button-slider{
+}
+
+.button-slider{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(26, 26, 26);
+}
+
+.button-slider .sb{
+    display: flex;
+    width: 50%;
+    color: white;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.khat{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+    background-color: rgb(15, 83, 211);
+    transition: 300ms;
+}
+
+
+.haml-slider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.subway-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: aqua; */
+    align-items: center;
+    z-index: 1;
+    transition: 300ms;
+}
+
+.bus-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    align-items: center;
+    transform: translateX(100%);
+    /* background-color: brown; */
+    z-index: 1000;
+    transition: 300ms;
+}
+
+
+.haml{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-height: 120px;
+    padding: 30px;
+    margin: 10px 0;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    transition: 300ms;
+    opacity: 0;
+}
+
+.metro-container{
+    display: flex;
+    min-width: 100%;
+    min-height: 60px;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aks{
+    position: relative;
+    display: flex;
+    width: 60px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+}
+
+#icon{
+    font-size: 40px;
+}
+
+.metro-container2{
+    display: flex;
+    flex-direction: row;
+}
+
+.t1,.t2,.t3{
+    max-width: 120px;
+}
+
+.t2,.t3{
+    text-align: end;
+}
